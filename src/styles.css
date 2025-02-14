@@ -1,0 +1,27 @@
+body {
+    background-color: #d5cdbd; /* Amarillo claro */
+    color: #D63384; /* Rosa fuerte */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+  }
+  
+  h2 {
+    color: #D63384; /* Rosa fuerte */
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: 0 auto;
+  }
+  
+  .btn-primary {
+    background-color: #D63384; /* Rosa */
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #C2185B; /* Un rosa más oscuro */
+  }
+  

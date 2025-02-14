@@ -1,0 +1,21 @@
+<div class="container">
+    <h2 class="text-center my-4">Contáctanos</h2>
+    <form (ngSubmit)="enviarFormulario()" #contactForm="ngForm">
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre</label>
+        <input type="text" class="form-control" id="nombre" [(ngModel)]="nombre" name="nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo Electrónico</label>
+        <input type="email" class="form-control" id="email" [(ngModel)]="email" name="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="mensaje" class="form-label">Mensaje</label>
+        <textarea class="form-control" id="mensaje" rows="3" [(ngModel)]="mensaje" name="mensaje" required></textarea>
+      </div>
+      <button type="submit" class="btn btn-primary" [disabled]="!contactForm.form.valid">Enviar</button>
+    </form>
+    <div *ngIf="mensajeEnviado" class="alert alert-success mt-3">
+      ¡Mensaje enviado con éxito! Nos pondremos en contacto contigo pronto.
+    </div>
+  </div>

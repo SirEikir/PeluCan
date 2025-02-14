@@ -1,0 +1,13 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h2 {
+    color: #D63384; /* Rosa */
+  }
+  
+  .alert {
+    text-align: center;
+  }
+  

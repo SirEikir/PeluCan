@@ -1,0 +1,21 @@
+.card {
+  border: 2px solid #D63384;
+  border-radius: 15px;
+  overflow: hidden;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.card img:hover {
+  transform: scale(1.10);
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+  
