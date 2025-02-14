@@ -1,6 +1,6 @@
 
 export default {
-  basePath: '/peluqueria-canina',
+  basePath: '/PeluCan',
   supportedLocales: {
   "en-US": ""
 },
