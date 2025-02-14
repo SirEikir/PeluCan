@@ -1,6 +1,6 @@
 
 export default {
-  basePath: 'C:/Program Files/Git/peluqueria-canina',
+  basePath: '/peluqueria-canina',
   supportedLocales: {
   "en-US": ""
 },
